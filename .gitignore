@@ -1,0 +1,68 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Python environments and packaging
+.venv/
+venv/
+env/
+ENV/
+build/
+dist/
+*.egg-info/
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Spark and Hadoop runtime files
+spark-warehouse/
+metastore_db/
+derby.log
+*.crc
+._SUCCESS.crc
+_SUCCESS
+
+# Generated analytical outputs
+output/
+outputs/
+processed_customers/
+recent_customers/
+
+# Databricks local tooling and bundles
+.databricks/
+.databricks-connect
+.databricks-connect/
+.bundle/
+
+# Environment variables, credentials, and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Operating-system metadata
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
